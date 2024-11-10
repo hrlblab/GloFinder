@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"qupath.ext.template"},{"l":"qupath.ext.template.ui"}];updateSearchResults();

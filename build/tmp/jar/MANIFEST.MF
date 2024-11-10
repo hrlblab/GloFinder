@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: qupath-extension_wcf
+Implementation-Version: 0.5.0
+Automatic-Module-Name: io.github.qupath.extension.template
+
