@@ -1,4 +1,6 @@
 # QuPath extension WCF
+<img src="https://github.com/hrlblab/PathVisual/blob/master/img/Screenshot%20from%202024-11-11%2013-16-08.png" width="768">
+
 
 This is a QuPath extension for Weighted Circle Fusion(WCF)
 
