@@ -7,6 +7,12 @@ or [CircleNet Conference Paper](https://link.springer.com/chapter/10.1007/978-3-
 
 ## Build and Install the extension
 
+### Set up the CircleNet environment
+you can refer the [Circlenet repository](https://github.com/hrlblab/CircleNet) for environment setting up. Please follow the instruction in [INSTALL.md](https://github.com/hrlblab/CircleNet/blob/master/docs/INSTALL.md)there.
+
+After that, you should change the environment path in [GLOMainCommand.java](https://github.com/hrlblab/PathVisual/blob/master/src/main/java/qupath/ext/template/GLOMainCommand.java) to your environment path.
+
+### Building your extension
 Building the extension with Gradle should be pretty easy - you don't even need to install Gradle separately, because the 
 [Gradle Wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html) will take care of that.
 
@@ -17,6 +23,7 @@ gradlew build
 
 The built extension should be found inside `build/libs`.
 
+### Extension Installation
 <img src="https://github.com/hrlblab/PathVisual/blob/master/img/trim.86A575A3-1320-4A70-B5CC-FC0C61F263CA%202.gif" width="768">
 
 You can drag this onto QuPath to install it.
@@ -34,16 +41,13 @@ QuPath.
 > If you don't do that, you'll need to drag *all* the extra dependences onto QuPath to install them as well.
 
 
-## Update
-
-
 
 ## Usage
 
 
 <img src="https://github.com/hrlblab/PathVisual/blob/master/img/wcf_show.gif" width="768">
 1.Drag the image into Qupath<br>
-2.Select Extensions > run GLO Detection from the menu bar.<br>
+2.Select `Extensions` >`Java extension`> `Run GLO Detection` from the menu bar.<br>
 
 
 This video demonstrates how to create a simple QuPath plugin to execute your existing Python code. It covers the essential steps to set up the plugin, integrate Python scripts, and run custom analyses within the QuPath environment.<br>
