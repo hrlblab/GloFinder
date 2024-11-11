@@ -56,7 +56,15 @@ This video demonstrates how to create a simple QuPath plugin to execute your exi
 
 
 ## Citation
-
+If you find this project useful for your research, please use the following BibTeX entry.
+```
+@article{yue2024weighted,
+  title={Weighted Circle Fusion: Ensembling Circle Representation from Different Object Detection Results},
+  author={Yue, Jialin and Yao, Tianyuan and Deng, Ruining and Liu, Quan and Xiong, Juming and Yang, Haichun and Huo, Yuankai},
+  journal={arXiv preprint arXiv:2406.19540},
+  year={2024}
+}
+```
 
 ## Acknowledgement
 [Qupath](https://qupath.github.io/)
