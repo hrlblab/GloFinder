@@ -16,6 +16,9 @@ gradlew build
 ```
 
 The built extension should be found inside `build/libs`.
+
+![QuPath Plugin Tutorial GIF](https://github.com/hrlblab/PathVisual/blob/master/img/trim.86A575A3-1320-4A70-B5CC-FC0C61F263CA%202.gif)
+
 You can drag this onto QuPath to install it.
 You'll be prompted to create a user directory if you don't already have one.
 
