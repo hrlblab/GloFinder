@@ -56,6 +56,7 @@ This video demonstrates how to create a simple QuPath plugin to execute your exi
 
 
 ## Citation
-[Qupath](https://qupath.github.io/)
+
 
 ## Acknowledgement
+[Qupath](https://qupath.github.io/)
