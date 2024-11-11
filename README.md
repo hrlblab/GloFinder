@@ -36,8 +36,13 @@ QuPath.
 
 
 ## Usage
-1.Drag the image into Qupath
-2.Select Extensions > run GLO Detection from the menu bar.
+1.Drag the image into Qupath<br>
+2.Select Extensions > run GLO Detection from the menu bar.<br>
+
+
+This video demonstrates how to create a simple QuPath plugin to execute your existing Python code. It covers the essential steps to set up the plugin, integrate Python scripts, and run custom analyses within the QuPath environment.<br>
+[Click here to watch the video on creating a QuPath plugin](https://youtu.be/T_TlwO1F628)
+
 
 
 ## Citation
