@@ -281,7 +281,8 @@ private String parseConfirmationToken(HttpURLConnection connection) throws IOExc
                 logger.warn("Unsupported WSI format for file: " + wholeSlideImagePath);
                 return;
             }
-
+            
+/////////////////////////////////////change the python interpreter path to your interpreter///////////////////////////////////////////////////////////
             // Prepare Python command to run the downloaded script
             List<String> command = new ArrayList<>();
             command.add("/home/yuej2/anaconda3/envs/CircleNet/bin/python3.7");  // Python interpreter
@@ -300,12 +301,19 @@ private String parseConfirmationToken(HttpURLConnection connection) throws IOExc
             command.add(qupathModelDir + "/test_result");  // Set demo_dir as "test_result"
             command.add("--target_dir");
             command.add(qupathModelDir + "/test_only_result");  // Set target_dir as "test_only_result"
-
+            
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            
             // Run the process
             ProcessBuilder processBuilder = new ProcessBuilder(command);
             Map<String, String> env = processBuilder.environment();
+
+//////////////////////////////////////change the environment path here to your circlenet environment//////////////////////////////////////////////////
+            
             env.put("PATH", "/home/yuej2/anaconda3/envs/CircleNet/bin:" + env.get("PATH"));
             env.put("PYTHONPATH", "/home/yuej2/.local/lib/python3.7/site-packages");
+            
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             processBuilder.redirectErrorStream(true);
 
             Process process = processBuilder.start();
