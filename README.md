@@ -46,8 +46,9 @@ The extension here will install a new command `Java extension` under the `Extens
 
 <img src="https://github.com/hrlblab/PathVisual/blob/master/img/wcf_show.gif" width="768">
 1.Drag the image into Qupath<br>
-2.Select `Extensions` >`Java extension`> `Run GLO Detection` from the menu bar.<br>
+2.Select  `Extensions`  >`Java extension` >  `Run GLO Detection`  from the menu bar.<br>
 
+## How to create a simple extension
 
 This video demonstrates how to create a simple QuPath plugin to execute your existing Python code. It covers the essential steps to set up the plugin, integrate Python scripts, and run custom analyses within the QuPath environment.<br>
 [Click here to watch the video on creating a QuPath plugin](https://youtu.be/T_TlwO1F628)
