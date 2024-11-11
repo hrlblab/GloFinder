@@ -39,6 +39,9 @@ QuPath.
 
 
 ## Usage
+
+
+<img src="https://github.com/hrlblab/PathVisual/blob/master/img/wcf_show.gif" width="768">
 1.Drag the image into Qupath<br>
 2.Select Extensions > run GLO Detection from the menu bar.<br>
 
