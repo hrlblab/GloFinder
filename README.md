@@ -1,4 +1,4 @@
-# QuPath extension WCF
+# QuPath extension GloFinder
 <img src="https://github.com/hrlblab/PathVisual/blob/master/img/Screenshot%20from%202024-11-11%2013-16-08.png" width="768">
 
 
