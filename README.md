@@ -66,6 +66,15 @@ If you find this project useful for your research, please use the following BibT
   journal={arXiv preprint arXiv:2406.19540},
   year={2024}
 }
+
+@article{yue2025glofinder,
+  title={GloFinder: AI-empowered QuPath plugin for WSI-level glomerular detection, visualization, and curation},
+  author={Yue, Jialin and Yao, Tianyuan and Deng, Ruining and Lu, Siqi and Guo, Junlin and Liu, Quan and Xiong, Juming and Yin, Mengmeng and Yang, Haichun and Huo, Yuankai},
+  journal={Journal of Pathology Informatics},
+  pages={100433},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
 
 ## Acknowledgement
