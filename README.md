@@ -12,7 +12,7 @@ or [CircleNet Conference Paper](https://link.springer.com/chapter/10.1007/978-3-
 ### Set up the CircleNet environment
 you can refer the [Circlenet repository](https://github.com/hrlblab/CircleNet) for environment setting up. Please follow the instruction in [INSTALL.md](https://github.com/hrlblab/CircleNet/blob/master/docs/INSTALL2023.md)there.
 
-After that, you should change the environment path in [GLOMainCommand.java](https://github.com/hrlblab/PathVisual/blob/master/src/main/java/qupath/ext/template/GLOMainCommand.java) to your environment path.
+After that, you should change the environment path in [GLOMainCommand.java](https://github.com/hrlblab/PathVisual/blob/master/src/main/java/qupath/ext/template/GLOMainCommand.java) to your environment path.And Please change desktopDir to your desktop path, which is also defined in [GLOMainCommand.java].
 
 ### Building your extension
 Building the extension with Gradle should be pretty easy - you don't even need to install Gradle separately, because the 
